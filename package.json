@@ -1,0 +1,19 @@
+{
+  "name": "meditation-app",
+  "version": "1.0.0",
+  "description": "Meditation App made with HTML, CSS and JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susan56789/meditation-app.git"
+  },
+  "author": "Susan Wairimu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susan56789/meditation-app/issues"
+  },
+  "homepage": "https://github.com/Susan56789/meditation-app#readme"
+}

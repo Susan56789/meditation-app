@@ -46,7 +46,6 @@
   left: 40%;
   right: 40%;
   transform: translate(-40%, -40%);
-  cursor: pointer;
 }
 
 .time-display {
@@ -144,4 +143,41 @@ a:hover {
 
 .sound-picker button img {
   height: 100%;
+}
+.time-select button:hover {
+  background: white;
+  color: black;
+}
+
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+}
+
+.player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.player-container svg circle {
+  transition: all 0.2s ease-in-out;
+}
+
+.time-display {
+  color: white;
+  position: absolute;
+  font-size: 50px;
+  bottom: 10%;
+}
+
+audio {
+  width: 100%;
 }

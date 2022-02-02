@@ -46,6 +46,7 @@
   left: 40%;
   right: 40%;
   transform: translate(-40%, -40%);
+  cursor: pointer;
 }
 
 .time-display {
@@ -131,6 +132,7 @@ a:hover {
   height: 120px;
   width: 120px;
   border-radius: 50%;
+  padding: 20px;
 }
 
 .sound-picker button:nth-child(1) {
@@ -138,4 +140,8 @@ a:hover {
 }
 .sound-picker button:nth-child(2) {
   background: #a14f49;
+}
+
+.sound-picker button img {
+  height: 100%;
 }
